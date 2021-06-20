@@ -4,7 +4,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 @Client.on_message(Filters.command(["help"]))
 async def start(client, message):
 	Lasiya2 = InlineKeyboardMarkup([
-		[InlineKeyboardButton("Youtube tutorial", url="https://www.youtube.com/channel/UCHyseVcfusXkOClpwja00yg")],
+		[InlineKeyboardButton("Youtube tutorial", url="https://telegra.ph/file/27fefe183e306ef919437.jpg")],
 		 ])
 	
     HelpT = f"<b>♔English help</b>\n• Just Send your Youtube video url⛓ \n• And i will give Method list to select your choice😋\n\n<b>♔සිංහල උදව්</b>\n• කොපි කරගත් Youtube ලින්කුව එවන්න.\n• එවිට ලැබෙන ලැයිස්තුවෙන් අවශ්‍ය පමාණය හා මාදිලිය තෝරාදෙන්න.\n\n Also use our file renamer @Renamerv12bot"

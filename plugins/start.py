@@ -5,11 +5,12 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Channel", url="https://t.me/D_bot_Ai")],
-        [InlineKeyboardButton(
-            "Report Bugs 😊", url="https://t.me/Danuma_admin_bot")],
-            [InlineKeyboardButton("Developer",url="Https://lasiya.ml")]
+        
+        [InlineKeyboardButton("Youtube ❤", url="https://www.youtube.com/channel/UCHyseVcfusXkOClpwja00yg")],
+        [InlineKeyboardButton("Report Bugs 😊", url="https://t.me/Danuma_admin_bot")],
+        [InlineKeyboardButton("Bot channel 🧪",url="https://t.me/danumabots")],
+        [InlineKeyboardButton("",url="https://t.me/danumabots")]
     ])
-    welcomed = f"[Hey](https://telegra.ph/file/d16beb00ebe1c13df3de3.jpg)<b>{message.from_user.first_name}</b> I'am YouTube Downloader \n From Danuma Project \n Enter /help for instructions"
+    welcomed = f"Hi <b>{message.from_user.first_name}</b>\nI'm glad to see you here\nWelcome to Speedest\nYouTube Downloader bot\n\n <b>Need to know howto use me ?</b>\n• Type /help to get instructins.\n • Type /tutorial for make a bot.\n • This bot is fully free.\n• Don't pay anyone for Bots like this. \n───── ❝<b> Lets Play </b>❞ ─────\n "
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation

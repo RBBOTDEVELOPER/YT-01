@@ -24,7 +24,7 @@
 # How to  Deploy 
 Complete guide on deploying @Ytdl22bot's clone on Heroku.
 
-[![Tutorial]()](https://cutt.ly/Mn4y3Ih)
+[![Tutorial](https://yt-embed.herokuapp.com/embed?v=l6rTppg3a1w)](https://cutt.ly/Mn4y3Ih)
 
 
 
